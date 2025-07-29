@@ -1,0 +1,18 @@
+version: "3.1"
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+
+- intent: ask_next_transfusion
+  examples: |
+    - When is my next transfusion?
+    - transfusion date
+    - When do I need blood next?
+
+- intent: ask_chelation_info
+  examples: |
+    - Tell me about chelation therapy
+    - what is chelation

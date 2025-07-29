@@ -1,0 +1,15 @@
+version: "3.1"
+intents:
+  - greet
+  - ask_next_transfusion
+  - ask_chelation_info
+
+responses:
+  utter_greet:
+  - text: "Hello! I am your Sanjeevani Care Companion. How can I help you today?"
+  
+  utter_ask_next_transfusion:
+  - text: "Let me check your schedule. Your next transfusion is scheduled for [Date]. Please confirm with your hospital."
+  
+  utter_chelation_info:
+  - text: "Chelation therapy is a vital treatment to remove excess iron from your body caused by blood transfusions. It's crucial for preventing organ damage."
