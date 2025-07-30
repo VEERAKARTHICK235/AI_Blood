@@ -25,7 +25,7 @@ type UserCreate = Omit<User, 'id'>;
 
 // --- API Configuration ---
 // Remember to change this to your computer's local IP address
-const API_URL = 'http://192.168.1.10:8000'; 
+const API_URL = 'http://000.000.0.00:8000'; 
 
 const api = axios.create({
   baseURL: API_URL,
